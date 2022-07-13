@@ -1,0 +1,126 @@
+.uwu{
+  background-color: rgb(52, 48, 48);
+  color: white;
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+
+}
+
+
+.cuadrado{
+  background-color: rgb(56, 51, 51);
+  color: white;
+  border: 2px black solid;
+  border-radius: 5px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 10px;
+  padding-bottom: 100px;
+}
+
+.calendario{
+  margin-left: 50px;
+}
+
+.btn{
+  margin-top: 10px;
+}
+.btn:hover
+{
+  filter: brightness(100%);
+}
+
+table{
+  margin-top: 10px;
+  margin-left: 50px;
+}
+#agregar{
+  margin-top: 30px;
+}
+
+.centrar{
+  text-align: center;
+}
+.inicio{
+  background-color: black;
+  color: white;
+  text-align: right;
+  margin-top: 20px;
+}
+.decorado:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.habitaciones{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 10px;
+  border: black 2px solid;
+  background-color: antiquewhite;
+}
+
+.habitaciones_reservadas{
+  padding: 10px;
+  border: black 2px solid;
+  margin-bottom: 10px;
+}
+
+td{
+  margin-top: 500px;
+}
+
+.carrusel{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.redes{
+  filter: brightness(120%);
+}
+
+.redes:hover {
+  filter: brightness(70%);
+}
+
+
+.formulario{
+  border-radius: 10px;
+  padding: 40px;
+  background-color: black;
+  /*background-color: rgb(26, 24, 24);*/
+  position: absolute;
+  top: 90%;
+  right: 12%;
+}
+
+.fchico{
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: black;
+  color: white;
+  margin-right: 15px;
+  width: 150px;
+}
+
+.modal_contenedor{
+  border: 2px black solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.admin{
+  background-color: antiquewhite;
+  border: black 2px solid;
+  text-align: center;
+}
+
