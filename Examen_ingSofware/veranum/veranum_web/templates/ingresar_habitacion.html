@@ -11,75 +11,63 @@
 </head>
 <body>
 
-    <p class="inicio">
-        <br>
-        <a style="padding-right: 20px; text-decoration: none;" class="link-light" href="#">9 8452 4856</a>
-        <br><br>
-        <a style="padding-right: 20px; text-decoration: none;" href="#" class="link-light">contacto@veranum.com</a>
-        <br><br>
-    </p>
-
-    
-    <ul class="nav justify-content-end">
+    <ul class="nav justify-content-end navigation">
         <li class="nav-item">
-            <a class="nav-link link-dark" href="/portada_web/">Nosotros</a>
+            <a class="nav-link link-light" href="/portada_web/">Nosotros</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link dropdown-toggle link-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hoteles</a>
+            <a class="nav-link dropdown-toggle link-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hoteles</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="/hotel_s_web/">Veranum Santiago</a></li>
                 <li><a class="dropdown-item" href="/hotel_v_web/">Veranum Valparaíso</a></li> 
               </ul>
           </li>
         <li class="nav-item">
-            <a class="nav-link link-dark" href="#">Restaurante</a>
+            <a class="nav-link link-light" href="/servicios_web/">Servicios</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link link-dark" href="/servicios_web/">Servicios</a>
+            <a class="nav-link link-light" href="/reservacion_web/">Reserva</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link link-dark" href="/reservacion_web/">Reserva</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link link-dark" href="#">Contáctanos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link link-dark" href="/iniciar_sesion_web/">Iniciar Sesión</a>
+            <a class="nav-link link-light" href="/iniciar_sesion_web/">Iniciar Sesión</a>
         </li>
     </ul>
 
-    <hr>
     <br>
+    <h1 class="display-5" style="margin-top: 30px; text-align: center;">Registrar habitación</h1>
+    <br><br>
 
     <div class="container uwu">
      <form action="/ingresar_habitacion/" class="form-container" >
         <div class="row">
             <div class="col">
-                <label for="" class="form-label">Nombre habitacion</label>
-                <input type="text" class="form-control" name="txt_nombre_habitacion" id="txt_nombre_habitacion">
+                <label for="" class="form-label">Nombre habitación:</label>
+                <input type="text" class="form-control" name="txt_nombre_habitacion" id="txt_nombre_habitacion" placeholder="Ej. Suite">
             </div>
             <div class="col">
-                <label for="" class="form-label">Hotel</label>
+                <label for="" class="form-label">Hotel:</label>
                 <select name="choice_hotel" class="form-select" id="choice_hotel">
                     <option value="1">Santiago</option>
                     <option value="2">Valparaiso</option>
                 </select>
             </div>
         </div>
+        <br>
         <div class="row">
             <div class="col">
-                <label for="" class="form-label">habitaciones</label>
-                <input type="number" name="txt_habitaciones" id="txt_habitaciones" class="form-control">
+                <label for="" class="form-label">Habitaciones:</label>
+                <input type="number" name="txt_habitaciones" id="txt_habitaciones" class="form-control" placeholder="1">
             </div>
             <div class="col">
-                <label for="" class="form-label">Baños</label>
-                <input type="number" class="form-control" name="txt_banos" id="txt_banos">
+                <label for="" class="form-label">Baños:</label>
+                <input type="number" class="form-control" name="txt_banos" id="txt_banos" placeholder="2">
             </div>
             <div class="col">
-                <label for="" class="form-label">Camas</label>
-                <input type="number" class="form-control" name="txt_camas" id="txt_camas">
+                <label for="" class="form-label">Camas:</label>
+                <input type="number" class="form-control" name="txt_camas" id="txt_camas" placeholder="2">
             </div>
         </div>
+        <br>
         <div class="row">
             <div class="col">
                 <label for="" class="form-label">Imagen</label>
@@ -104,26 +92,29 @@
         </div>
         <div class="row">
             <div class="col">
-              <label for="" class="form-label">Descripcion</label>
-              <textarea name="txt_descripcion" class="form-control" id="txt_descripcion" cols="15" rows="5"></textarea>
+              <label for="" class="form-label">Descripción:</label>
+              <textarea name="txt_descripcion" class="form-control" id="txt_descripcion" cols="15" rows="5" placeholder="Ej. Habitación cuenta con dos camas de 1/2 plazas c/u; contiene 2 baños y..."></textarea>
             </div>
         </div>
+        <br>
         <div class="row">
             <div class="col-4">
                 <label for="" class="form-label">Precio</label>
                 <input type="number" class="form-control" name="txt_precio" id="txt_precio">
             </div>
         </div>
+        <br>
         <div class="row">
             <div class="col">
                 <input class="form-check-input" type="checkbox" value="" id="ck_oferta" name="ck_oferta">
                 <label class="form-check-label" for="flexCheckDefault">Oferta</label>
             </div>
         </div>
+        <br>
         <div class="row">
             <div class="col">
                 <button type="submit" class="btn btn-primary">Ingresar</button>
-                <input type="button" class="btn btn-primary" value="Ingresar promocion" data-bs-toggle="modal" data-bs-target="#promocion">
+                <input type="button" class="btn btn-primary" value="Ingresar promoción" data-bs-toggle="modal" data-bs-target="#promocion">
             </div>
         </div>
      </form>
@@ -133,7 +124,7 @@
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Promocion</h5>
+              <h5 class="modal-title">Promoción</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -142,12 +133,12 @@
                     <form action="#" >
                         <div class="row">
                             <div class="col">
-                                <label for="" class="form-label">Servicio para agregar a la promocion</label>
+                                <label for="" class="form-label">Servicio para agregar a la promoción:</label>
                                 <select name="" class="form-select" id="">
                                     <option value="1"></option>
                                     <option value="2">Spa</option>
                                     <option value="3">Piscina</option>
-                                    <option value="4">UwU</option>
+                                    <option value="4">Gimnasio</option>
                                 </select>
                             </div>
                             <div class="col">
@@ -164,7 +155,7 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                            <label for="" class="form-label">Descripcion</label>
+                            <label for="" class="form-label">Descripción:</label>
                             <textarea name="" class="form-control" id="" cols="15" rows="5"></textarea>
                             </div>
                         </div>
@@ -179,6 +170,7 @@
       </div>
     </div>
 
+    <br><br>
     <footer class="inicio">
         <div class="p-3 mb-2 text-white">
           <div class="container">
@@ -203,13 +195,13 @@
                   </p>
               </div>
               <div class="col">
-                  <p class="lead" style="text-align: center;">
-                      Sobre Nosotros
-                      <br>
-                      <p class="lead" style="font-size: 17px; text-align: center;">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nemo dolor perspiciatis sequi autem cumque est. 
-                      </p>
-                  </p>
+                    <p class="lead" style="text-align: center;">
+                        ¿Dónde encontrarnos?
+                        <br><br>
+                        <a class="link-light" target="_blank" style="font-size: 17px;" href="https://shorturl.ae/EjJy7">Apoquindo 5680, Las Condes</a>
+                        <br>
+                        <a class="link-light" target="_blank" style="font-size: 17px;" href="https://shorturl.ae/RdLJY">Molina 76, Valparaíso</a>
+                    </p>
               </div>
             </div>
           </div>

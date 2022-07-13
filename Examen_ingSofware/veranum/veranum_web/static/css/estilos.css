@@ -1,5 +1,5 @@
 .uwu{
-  background-color: rgb(52, 48, 48);
+  background-color: rgb(31, 29, 29);
   color: white;
   border: 2px black solid;
   border-radius: 5px;
@@ -10,7 +10,7 @@
 
 
 .cuadrado{
-  background-color: rgb(56, 51, 51);
+  background-color: rgb(31, 29, 29);
   color: white;
   border: 2px black solid;
   border-radius: 5px;
@@ -124,3 +124,12 @@ td{
   text-align: center;
 }
 
+.navigation {
+  /* fixed keyword is fine too */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}

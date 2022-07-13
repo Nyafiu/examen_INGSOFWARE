@@ -11,46 +11,32 @@
 </head>
 <body>
 
-    <p class="inicio">
-        <br>
-        <a style="padding-right: 20px; text-decoration: none;" class="link-light" href="#">9 8452 4856</a>
-        <br><br>
-        <a style="padding-right: 20px; text-decoration: none;" href="#" class="link-light">contacto@veranum.com</a>
-        <br><br>
-    </p>
 
-    <ul class="nav justify-content-end">
+    <ul class="nav justify-content-end navigation">
         <li class="nav-item">
-            <a class="nav-link link-dark" href="/portada_web/">Nosotros</a>
+            <a class="nav-link link-light" href="/portada_web/">Nosotros</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link dropdown-toggle link-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hoteles</a>
+            <a class="nav-link dropdown-toggle link-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hoteles</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="/hotel_s_web/">Veranum Santiago</a></li>
                 <li><a class="dropdown-item" href="/hotel_v_web/">Veranum Valparaíso</a></li> 
               </ul>
           </li>
         <li class="nav-item">
-            <a class="nav-link link-dark" href="#">Restaurante</a>
+            <a class="nav-link link-light" href="/servicios_web/">Servicios</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link link-dark" href="/servicios_web/">Servicios</a>
+            <a class="nav-link link-light" href="/reservacion_web/">Reserva</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link link-dark" href="/reservacion_web/">Reserva</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link link-dark" href="#">Contáctanos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link link-dark" href="/iniciar_sesion_web/">Iniciar Sesión</a>
+            <a class="nav-link link-light" href="/iniciar_sesion_web/">Iniciar Sesión</a>
         </li>
     </ul>
     
-    <hr>
     <br>
-
-    <h1 class="centrar">Iniciar sesion</h1>
+    <h1 class="display-5" style="margin-top: 30px; text-align: center;">Iniciar sesión</h1>
+    <br><br>
 
     <div class="container">
         <form action="/inicio_sesion/" method="get" class="form-container cuadrado" name="formulario">
@@ -60,25 +46,25 @@
                     <input type="email" name="txt_usuario" id="txt_usuario"  class="form-control">
                 </div>
             </div>
-
             <div class="row justify-content-center">
                 <div class="col-6">
                     <label for="" class="form-label" id="agregar">Contraseña</label>
                     <input type="password" name="txt_contrasena" class="form-control" id="txt_contrasena">
                 </div>
             </div>
-
+            <br>
             <div class="row justify-content-center">
                 <div class="col text-center">
                     <input type="submit" class="btn btn-danger regular-button" value="Iniciar">
                 </div>
             </div>
+            <br><br>
             <div class="col text-center">
-                <a href="">¿No tienes cuenta registrate aqui?</a>
+                ¿No tienes una cuenta? <a class="link-light" href="/registro_web/">Regístrate aquí</a>
             </div>
         </form>
     </div>
-
+    <br><br>
     <footer class="inicio">
         <div class="p-3 mb-2 text-white">
           <div class="container">
@@ -103,13 +89,13 @@
                   </p>
               </div>
               <div class="col">
-                  <p class="lead" style="text-align: center;">
-                      Sobre Nosotros
-                      <br>
-                      <p class="lead" style="font-size: 17px; text-align: center;">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nemo dolor perspiciatis sequi autem cumque est. 
-                      </p>
-                  </p>
+                    <p class="lead" style="text-align: center;">
+                        ¿Dónde encontrarnos?
+                        <br><br>
+                        <a class="link-light" target="_blank" style="font-size: 17px;" href="https://shorturl.ae/EjJy7">Apoquindo 5680, Las Condes</a>
+                        <br>
+                        <a class="link-light" target="_blank" style="font-size: 17px;" href="https://shorturl.ae/RdLJY">Molina 76, Valparaíso</a>
+                    </p>
               </div>
             </div>
           </div>

@@ -38,43 +38,28 @@
 </head>
 <body>
  
-    <p class="inicio">
-        <br>
-        <a style="padding-right: 20px; text-decoration: none;" class="link-light" href="#">9 8452 4856</a>
-        <br><br>
-        <a style="padding-right: 20px; text-decoration: none;" href="#" class="link-light">contacto@veranum.com</a>
-        <br><br>
-    </p>
-
     <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
-    <ul class="nav justify-content-end">
+    <ul class="nav justify-content-end navigation">
         <li class="nav-item">
-            <a class="nav-link link-dark" href="/portada_web/">Nosotros</a>
+            <a class="nav-link link-light" href="/portada_web/">Nosotros</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link dropdown-toggle link-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hoteles</a>
+            <a class="nav-link dropdown-toggle link-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hoteles</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="/hotel_s_web/">Veranum Santiago</a></li>
                 <li><a class="dropdown-item" href="/hotel_v_web/">Veranum Valparaíso</a></li> 
               </ul>
           </li>
         <li class="nav-item">
-            <a class="nav-link link-dark" href="#">Restaurante</a>
+            <a class="nav-link link-light" href="/servicios_web/">Servicios</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link link-dark" href="/servicios_web/">Servicios</a>
+            <a class="nav-link link-light" href="/reservacion_web/">Reserva</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link link-dark" href="/reservacion_web/">Reserva</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link link-dark" href="#">Contáctanos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link link-dark" href="/iniciar_sesion_web/">Iniciar Sesión</a>
+            <a class="nav-link link-light" href="/iniciar_sesion_web/">Iniciar Sesión</a>
         </li>
     </ul>
-    <hr>
     
     <br>
     <h1 class="display-5" style="margin-top: 30px; text-align: center;">Reserva</h1>
@@ -162,15 +147,15 @@
     <div class="container habitaciones">
         <div class="row">
             <div class="col-6">
-                <img src="img/h1.jpg" alt="" width="600" height="300">
+                <img src="{% static 'img/h1.jpg' %}" alt="" width="600" height="300">
             </div>
             <div class="col-6">
                 <table >
                     <tr>
-                        <td><h2>Nombre habitacion</h2></td>
+                        <td><h2>Nombre habitación</h2></td>
                     </tr>
                     <tr>
-                        <td>Numero de habitaciones:</td>
+                        <td>Número de habitaciones:</td>
                     </tr>
                     <tr>
                         <td>Cantidad de camas:</td>
@@ -179,15 +164,16 @@
                         <td>Cantidad de baños:</td>
                     </tr>
                     <tr>
-                        <td>Cosas que trae (estaria bueno ocupar imagenes)</td>
+                        <td>Incluye:</td>
                     </tr>
                     <tr>
-                        <td>Descripcion:</td>
+                        <td>Descripción:</td>
                     </tr>
                 </table>
             </div>
           </div>
     </div>
+    <br><br>
 
     <footer class="inicio">
         <div class="p-3 mb-2 text-white">
@@ -213,13 +199,13 @@
                   </p>
               </div>
               <div class="col">
-                  <p class="lead" style="text-align: center;">
-                      Sobre Nosotros
-                      <br>
-                      <p class="lead" style="font-size: 17px; text-align: center;">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nemo dolor perspiciatis sequi autem cumque est. 
-                      </p>
-                  </p>
+                <p class="lead" style="text-align: center;">
+                    ¿Dónde encontrarnos?
+                    <br><br>
+                    <a class="link-light" target="_blank" style="font-size: 17px;" href="https://shorturl.ae/EjJy7">Apoquindo 5680, Las Condes</a>
+                    <br>
+                    <a class="link-light" target="_blank" style="font-size: 17px;" href="https://shorturl.ae/RdLJY">Molina 76, Valparaíso</a>
+                </p>
               </div>
             </div>
           </div>
